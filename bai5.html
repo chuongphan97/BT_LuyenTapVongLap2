@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lãi ngân hàng</title>
+</head>
+<body>
+    <script>
+        let tienVay = +prompt('Nhập số tiền vay: ');
+        let lai = +prompt('Nhập lãi: ');
+        let thang = +prompt('Nhập số tháng để trả: ');
+        let tienTra = tienVay;
+        for (let i=1;i<=thang;i++);
+        {tienTra = tienTra + tienTra*thang*0.01;}
+
+        alert('Số tiền phải trả trong '+ thang+' tháng là: '+tienTra);
+    </script>
+</body>
+</html>
